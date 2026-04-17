@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    margin: 20px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.logo{
+    width: 120px;
+}
+h1{
+    font-size: 40px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.cont{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+.imagen, .imagen1, .imagen2{
+    width: 300px;
+}
+.texto{
+    max-width: 600px;
+}
+.ue{
+    border: solid 1px;
+    text-align: center;
+    background-color: black;
+}
+.xt{
+    color: white;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.schedule{
+    max-width: 800px;
+    margin: auto;
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+.game{
+    margin: 5px 0;
+}
+.info, .contact{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.info{
+    background-color: aliceblue;
+}
+.contact{
+    background-color: antiquewhite;
+}
+.fondo1, .fondo2{
+    background-color: lightblue;
+}
